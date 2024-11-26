@@ -11,5 +11,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '13.0'
     s.swift_versions = ['4.2', '5.0', '5.1', '5.3']
 
+    s.dependency 'Google-Mobile-Ads-SDK', '~> 11.0.0'
+
     s.ios.vendored_frameworks = 'StorytellerGAMIntegration/*.xcframework'
 end
