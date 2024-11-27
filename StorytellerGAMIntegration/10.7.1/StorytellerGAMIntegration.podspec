@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
     s.homepage          = 'https://getstoryteller.com/'
     s.author            = { 'Storm Ideas' => 'hello@stormideas.com' }
-    s.source            = { :http => 'https://storyteller.azureedge.net/sdk-ios/xcframeworks/10.7.0/StorytellerGAMIntegration.zip' }
+    s.source            = { :http => 'https://storyteller.azureedge.net/sdk-ios/xcframeworks/10.7.1/StorytellerGAMIntegration.zip' }
 
     s.ios.deployment_target = '13.0'
     s.swift_versions = ['4.2', '5.0', '5.1', '5.3']
